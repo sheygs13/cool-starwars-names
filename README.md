@@ -1,2 +1,3 @@
 # starwars-names
-Build a tiny library with Kent C. Dodds
+
+> Build a micro library with Kent C. Dodds
