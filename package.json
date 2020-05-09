@@ -1,14 +1,15 @@
 {
   "name": "cool-starwars-names",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random starwars names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha ./src/index.test.js --watch"
+    "test": "mocha ./src/index.test.js --watch",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sheygs13/starwars-names.git"
+    "url": "https://github.com/sheygs13/cool-starwars-names.git"
   },
   "keywords": [
     "random",
@@ -18,14 +19,15 @@
   "author": "Olusegun O. Ekoh <segun.ekoh@gmail.com> (https://olusegunekoh.netlify.app/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sheygs13/starwars-names/issues"
+    "url": "https://github.com/sheygs13/cool-starwars-names/issues"
   },
-  "homepage": "https://github.com/sheygs13/starwars-names#readme",
+  "homepage": "https://github.com/sheygs13/cool-starwars-names#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
-    "mocha": "7.1.2"
+    "mocha": "7.1.2",
+    "semantic-release": "^17.0.7"
   }
 }
